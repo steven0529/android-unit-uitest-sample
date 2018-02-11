@@ -1,3 +1,3 @@
-# android-unit-uitest-sample
+# Android Unit UI test sample application
 
-A sample application with Android Unit and UI tests
+A sample application with Android Unit that uses JUnit and UI tests that uses Espresso.
