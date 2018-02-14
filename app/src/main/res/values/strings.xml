@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">UnitTestExercise</string>
+    <string name="first_name">First name</string>
+    <string name="middle_name">Middle name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="gender">Gender</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="submit">SUBMIT</string>
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
 </resources>
