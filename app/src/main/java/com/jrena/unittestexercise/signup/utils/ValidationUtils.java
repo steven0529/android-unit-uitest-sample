@@ -9,12 +9,12 @@ import java.util.regex.Pattern;
 
 public class ValidationUtils {
     public static final Pattern VALID_EMAIL_ADDRESS_REGEX =
-            Pattern.compile("^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$");
+            Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$");
     public static final Pattern VALID_NUMBER_REGEX =
             Pattern.compile("^\\d+(\\.\\d{1,2})?$");
-    public static final Pattern VALID_PASSWORD =
+    public static final Pattern VALID_PASSWORD_REGEX =
             Pattern.compile("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{12,}$");
-    public static final Pattern VALID_NAME =
+    public static final Pattern VALID_NAME_REGEX =
             Pattern.compile("^(\\D*)");
 
     public static boolean isValidEmail(String email) {
@@ -37,14 +37,14 @@ public class ValidationUtils {
     }
 
     public static boolean isValidPassword(String password) {
-        Pattern pattern = VALID_PASSWORD;
+        Pattern pattern = VALID_PASSWORD_REGEX;
         Matcher matcher = pattern.matcher(password);
 
         return matcher.matches();
     }
 
     public static boolean isValidName(String name) {
-        Pattern pattern = VALID_NAME;
+        Pattern pattern = VALID_NAME_REGEX;
         Matcher matcher = pattern.matcher(name);
 
         return matcher.matches();

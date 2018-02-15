@@ -13,52 +13,52 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrectEmail() throws Exception {
+    public void isCorrectEmail() throws Exception {
         assertTrue(ValidationUtils.isValidEmail("sample@stratpoint.com"));
     }
 
     @Test
-    public void addition_isIncorrectEmail() throws Exception {
-        assertFalse(ValidationUtils.isValidEmail("sample@stratpoint"));
+    public void isIncorrectEmail() throws Exception {
+        assertFalse(ValidationUtils.isValidEmail("sample"));
     }
 
     @Test
-    public void addition_isCorrectNumber() throws Exception {
+    public void isCorrectNumber() throws Exception {
         assertTrue(ValidationUtils.isValidNumber("09274567890"));
     }
 
     @Test
-    public void addition_isIncorrectNumber() throws Exception {
+    public void isIncorrectNumber() throws Exception {
         assertFalse(ValidationUtils.isValidNumber("09d943837h"));
     }
 
     @Test
-    public void addition_isCorrectGender() throws Exception {
+    public void isCorrectGender() throws Exception {
         assertTrue(ValidationUtils.isValidGender("Male"));
     }
 
     @Test
-    public void addition_isIncorrectGender() throws Exception {
+    public void isIncorrectGender() throws Exception {
         assertFalse(ValidationUtils.isValidGender("Maleee"));
     }
 
     @Test
-    public void addition_isCorrectPasword() throws Exception {
+    public void isCorrectPasword() throws Exception {
         assertTrue(ValidationUtils.isValidPassword("tysfY67@qvGa"));
     }
 
     @Test
-    public void addition_isIncorrectPassword() throws Exception {
+    public void isIncorrectPassword() throws Exception {
         assertFalse(ValidationUtils.isValidPassword("password"));
     }
 
     @Test
-    public void addition_isCorrectName() throws Exception {
-        assertTrue(ValidationUtils.isValidPassword("Lebron James"));
+    public void isCorrectName() throws Exception {
+        assertTrue(ValidationUtils.isValidName("Lebron James"));
     }
 
     @Test
-    public void addition_isIncorrectName() throws Exception {
-        assertFalse(ValidationUtils.isValidPassword("Lebron01 James"));
+    public void isIncorrectName() throws Exception {
+        assertFalse(ValidationUtils.isValidName("Lebron01 James"));
     }
 }
