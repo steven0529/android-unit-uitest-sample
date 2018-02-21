@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-unit-uitest-sample.iml" filepath="$PROJECT_DIR$/android-unit-uitest-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/unittestexercise.iml" filepath="$PROJECT_DIR$/unittestexercise.iml" />
+      <module fileurl="file://C:\Users\Louie M. Donios\StudioProjects\UnitTestExercise\android-unit-uitest-sample\unittestexercise.iml" filepath="C:\Users\Louie M. Donios\StudioProjects\UnitTestExercise\android-unit-uitest-sample\unittestexercise.iml" />
     </modules>
   </component>
 </project>
