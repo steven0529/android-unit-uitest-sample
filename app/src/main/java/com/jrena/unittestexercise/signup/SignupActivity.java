@@ -1,9 +1,12 @@
+package com.jrena.unittestexercise.signup;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.jrena.unittestexercise.R;
+import com.jrena.unittestexercise.utils.ValidationUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -34,6 +37,7 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
         ButterKnife.bind(this);
+
     }
 
     @OnClick(R.id.btn_submit)

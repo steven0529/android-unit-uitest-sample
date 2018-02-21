@@ -1,4 +1,4 @@
-package com.jrena.unittestexercise.signup.utils;
+package com.jrena.unittestexercise.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

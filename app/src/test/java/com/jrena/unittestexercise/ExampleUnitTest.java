@@ -1,6 +1,6 @@
 package com.jrena.unittestexercise;
 
-import com.jrena.unittestexercise.signup.utils.ValidationUtils;
+import com.jrena.unittestexercise.utils.ValidationUtils;
 
 import org.junit.Test;
 
